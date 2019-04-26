@@ -193,7 +193,7 @@ void leer_palabra(t_sec_pal * sec, t_palabra* pal )
         sec->act++;
     if(!(*sec->act))
     {
-        sec->finSec=0;
+        sec->finSec=1;
         return;
     }
     pal->ini=sec->act;
@@ -257,12 +257,12 @@ void posicionamiento_sec_pal(t_sec_pal* sec,int pos)
 
 void a_mayuscula(char* caracter)
 {
-    if(*caracter >= 'a' && *caracter <= 'z');
+    if(*caracter >= 'a' && *caracter <= 'z')
         *caracter -= ('a'- 'A');
 }
 
 void a_minuscula(char* caracter)
 {
-    if(*caracter >= 'A' && *caracter <= 'Z');
+    if(*caracter >= 'A' && *caracter <= 'Z')
         *caracter += ('a'- 'A');
 }

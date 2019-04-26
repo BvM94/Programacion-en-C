@@ -32,7 +32,16 @@ int main()
 
     ////////////////////////////////////////////////////////////////////////////////
     //NORMALIZAR
-    char frase[]={"hOLA.-+*QUE/t  tAl?.;-+/"};
+    char frase[]={"hOLA.-+*QUE/  tAl?.;-+/"};
+    char frasemodificada[50];
+
+    //sec->act = (char*)cadorig;
+
+    printf("frase orginal : %s\n\n",frase);
+
+    normalizar(frase,frasemodificada);
+
+    printf("frase modificada : %s\n\n",frasemodificada);
 
     //HOLA Que Tal\0
 
