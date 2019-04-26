@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555116594 source:c:\users\usuario\desktop\programacion\nuevo\funciones_fechas.c
+	"funciones_fechas.h"
+
+1555111884 c:\users\usuario\desktop\programacion\nuevo\funciones_fechas.h
+	<stdio.h>
+	<stdlib.h>
+
+1555114568 source:c:\users\usuario\desktop\programacion\nuevo\pruebas fechas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../funciones_fechas.h"
+
