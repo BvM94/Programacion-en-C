@@ -102,3 +102,36 @@ int vec_eliminar_ocurrencias(int* vec, int* ce, const int* tam,const int* valor)
 
     return ocurrencia>0?TODO_OK : ERROR;
 }
+
+void orden_por_Seleccion_Ascendente(int * vec, int* ce)
+{
+    int *i,*m;
+    int* ultimo = v+ce-1
+
+    for(i=v,i< ultimo,i++)
+    {
+
+        m=buscar_menor(i,ult); //busca menor entre dos posiciones
+
+        if(m!=i)
+            intercambiar_ints(m,i);
+    }
+}
+
+int* buscar_menor(int* d, int* h)
+{
+   int* m = d;
+   int* j;
+
+   for(j=d+1;j <= h , j++)
+       if(*j < *m)
+            m=j;
+    return m;
+}
+
+void intercambio_ints(int* a, int* b)
+{
+    int aux = *a;
+    (*a)=*b;
+    (*b)=aux;
+}
