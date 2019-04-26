@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1555996131 source:c:\users\usuario\desktop\programacion\nuevo\my_string.c
+	"my_string.h"
+
+1555992405 c:\users\usuario\desktop\programacion\nuevo\my_string.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1555996462 source:c:\users\usuario\desktop\programacion\nuevo\prueba funciones libreria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../my_string.h"
+
