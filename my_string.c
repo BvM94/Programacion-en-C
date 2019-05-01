@@ -187,7 +187,27 @@ void iniciar_sec_pal(t_sec_pal * sec, const char* str)
     sec->finSec = 0;
 }
 
-void leer_palabra(t_sec_pal * sec, char* pal );
+void leer_palabra(t_sec_pal * sec, char* pal )
+{
+    while(*sec->act != '\0' && !es_letra(*sec->act))
+        sec->act++;
+    if(!(*sec->act))
+    {
+        sec->finSec=0;
+        return;
+    }
+    pal->ini=sec-act;
+
+    while(*sec->act != '\0' && es_letra(*sec->act))
+        sec->act++;
+    pal->fin = sec->act - 1 ;
+}
+
+int es_letra(const char caracter)
+{
+    return ((caracter >= 'a' && caracter<= 'z' ) || (caracter >= 'A' && caracter<= 'Z' ));
+}
+
 int fin_sec_pal(t_pal_sec * sec);
 void escribir_caracter(t_sec_pal);
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
