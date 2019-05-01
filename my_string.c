@@ -214,7 +214,22 @@ int fin_sec_pal(t_sec_pal * sec)
 }
 
 void escribir_caracter(t_sec_pal);
-void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
+void escribir_palabra(t_sec_pal* sec, t_palabra * pal)
+{
+    char* inipal = pal->ini;
+    char* *finpal = pal->fin;
+
+    pal->ini = sec->act;
+
+    while(inipal <= finpal)
+    {
+            *sec->act = *inipal;
+            inipal++;
+            sec->act++;
+    }
+    pal->fin = sec->act -1;
+}
+
 void formatear_palabra(t_palabra* pal);
 
 void posicionamiento_sec_pal(t_sec_pal* sec,int pos)
