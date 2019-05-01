@@ -41,7 +41,8 @@ void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
 void formatear_palabra(t_palabra* pal);
 void posicionamiento_sec_pal(t_sec_pal* sec,int pos
 int es_letra(const char caracter);
-
+void a_mayuscula(char* caracter);
+void a_minuscula(char* caracter);
 
 
 #endif // MY_STRING_H_INCLUDED

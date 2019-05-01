@@ -239,17 +239,30 @@ void formatear_palabra(t_palabra* pal)
 {
     char* inipal = pal->ini;
 
-    a_mayuscula(*inipal);
+    a_mayuscula(inipal);
     inipal++;
 
     while(inipal <= pal->fin )
     {
-        a_minuscula(*inipal);
+        a_minuscula(inipal);
         inipal++;
     }
 }
 
+
 void posicionamiento_sec_pal(t_sec_pal* sec,int pos)
 {
   (sec->act) += pos;
+}
+
+void a_mayuscula(char* caracter)
+{
+    if(*caracter >= 'a' && *caracter <= 'z');
+        *caracter -= ('a'- 'A');
+}
+
+void a_minuscula(char* caracter);
+{
+    if(*caracter >= 'A' && *caracter <= 'Z');
+        *caracter += ('a'- 'A');
 }
