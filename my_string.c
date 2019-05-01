@@ -208,7 +208,11 @@ int es_letra(const char caracter)
     return ((caracter >= 'a' && caracter<= 'z' ) || (caracter >= 'A' && caracter<= 'Z' ));
 }
 
-int fin_sec_pal(t_pal_sec * sec);
+int fin_sec_pal(t_sec_pal * sec)
+{
+    return sec->finSec;
+}
+
 void escribir_caracter(t_sec_pal);
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
 void formatear_palabra(t_palabra* pal);

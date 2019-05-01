@@ -35,7 +35,7 @@ void intercambiar_chars(char* izq,char* der);
 char* normalizar(const char* orig, char* dest);
 void iniciar_sec_pal(t_sec_pal * sec, const char* str);
 void leer_palabra(t_sec_pal * sec, char* pal );
-int fin_sec_pal(t_pal_sec * sec);
+int fin_sec_pal(t_sec_pal * sec);
 void escribir_caracter(t_sec_pal* sec, char caracter);
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
 void formatear_palabra(t_palabra* pal);
