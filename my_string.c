@@ -213,7 +213,12 @@ int fin_sec_pal(t_sec_pal * sec)
     return sec->finSec;
 }
 
-void escribir_caracter(t_sec_pal);
+void escribir_caracter(t_sec_pal* sec, char caracter)
+{
+  *sec->act = caracter;
+   sec->act++;
+}
+
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal)
 {
     char* inipal = pal->ini;
