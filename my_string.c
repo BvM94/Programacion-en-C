@@ -157,4 +157,39 @@ void intercambiar_chars(char* izq,char* der)
     *der = aux;
 }
 
+char* normalizar(const char* orig, char* dest)
+{
+    t_palabra pal;
+    t_sec_pal sorig,sdest;
 
+    iniciar_sec_pal(&sorig,orig);
+    iniciar_sec_pal(&sdest,dest);
+
+    leer_palabra(&sorig,&pal);
+
+    whil(!fin_sec_pal(&sorig))
+    {
+        escribir_palabra(&sdest, &pal);
+        formatear_palabra(&pal);
+        escribir_caracter(&sdest,' ');
+        leer_palabra(&sorig,&pal);
+    }
+
+    posicionamiento_sec_pal(&sdest,-1);
+    escribir_caracter(&sdest, '\0');
+
+    return dest;
+}
+
+void iniciar_sec_pal(t_sec_pal * sec, const char* str)
+{
+    sec->act = sec->inicad = str;
+    sec->finSec = 0;
+}
+
+void leer_palabra(t_sec_pal * sec, char* pal );
+int fin_sec_pal(t_pal_sec * sec);
+void escribir_caracter(t_sec_pal);
+void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
+void formatear_palabra(t_palabra* pal);
+void posicionamiento_sec_pal(t_sec_pal* sec,int pos);

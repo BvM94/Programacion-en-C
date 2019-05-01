@@ -36,8 +36,7 @@ int main()
 
     //HOLA Que Tal\0
 
-    normalizar_AyN(frase);
-    printf("");
+
 
 
     return 0;
