@@ -32,7 +32,7 @@ int main()
 
     ////////////////////////////////////////////////////////////////////////////////
     //NORMALIZAR
-    char frase[]={"hOLA.-+*QUE/t  tAl?.;-+/"}
+    char frase[]={"hOLA.-+*QUE/t  tAl?.;-+/"};
 
     //HOLA Que Tal\0
 

@@ -157,7 +157,7 @@ void intercambiar_chars(char* izq,char* der)
     *der = aux;
 }
 
-char* normalizar(const char* orig, char* dest)
+char* normalizar(char* orig, char* dest)
 {
     t_palabra pal;
     t_sec_pal sorig,sdest;
@@ -167,7 +167,7 @@ char* normalizar(const char* orig, char* dest)
 
     leer_palabra(&sorig,&pal);
 
-    whil(!fin_sec_pal(&sorig))
+    while(!fin_sec_pal(&sorig))
     {
         escribir_palabra(&sdest, &pal);
         formatear_palabra(&pal);
@@ -181,13 +181,13 @@ char* normalizar(const char* orig, char* dest)
     return dest;
 }
 
-void iniciar_sec_pal(t_sec_pal * sec, const char* str)
+void iniciar_sec_pal(t_sec_pal * sec, char* str)
 {
     sec->act = sec->inicad = str;
     sec->finSec = 0;
 }
 
-void leer_palabra(t_sec_pal * sec, char* pal )
+void leer_palabra(t_sec_pal * sec, t_palabra* pal )
 {
     while(*sec->act != '\0' && !es_letra(*sec->act))
         sec->act++;
@@ -196,7 +196,7 @@ void leer_palabra(t_sec_pal * sec, char* pal )
         sec->finSec=0;
         return;
     }
-    pal->ini=sec-act;
+    pal->ini=sec->act;
 
     while(*sec->act != '\0' && es_letra(*sec->act))
         sec->act++;
@@ -222,7 +222,7 @@ void escribir_caracter(t_sec_pal* sec, char caracter)
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal)
 {
     char* inipal = pal->ini;
-    char* *finpal = pal->fin;
+    char* finpal = pal->fin;
 
     pal->ini = sec->act;
 
@@ -261,7 +261,7 @@ void a_mayuscula(char* caracter)
         *caracter -= ('a'- 'A');
 }
 
-void a_minuscula(char* caracter);
+void a_minuscula(char* caracter)
 {
     if(*caracter >= 'A' && *caracter <= 'Z');
         *caracter += ('a'- 'A');

@@ -32,14 +32,14 @@ void intercambiar_chars(char* izq,char* der);
 
 //char* normalizar_AyN(char* strAyN);
 
-char* normalizar(const char* orig, char* dest);
-void iniciar_sec_pal(t_sec_pal * sec, const char* str);
-void leer_palabra(t_sec_pal * sec, char* pal );
+char* normalizar(char* orig, char* dest);
+void iniciar_sec_pal(t_sec_pal * sec, char* str);
+void leer_palabra(t_sec_pal * sec, t_palabra* pal );
 int fin_sec_pal(t_sec_pal * sec);
 void escribir_caracter(t_sec_pal* sec, char caracter);
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal);
 void formatear_palabra(t_palabra* pal);
-void posicionamiento_sec_pal(t_sec_pal* sec,int pos
+void posicionamiento_sec_pal(t_sec_pal* sec,int pos);
 int es_letra(const char caracter);
 void a_mayuscula(char* caracter);
 void a_minuscula(char* caracter);
