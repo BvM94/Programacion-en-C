@@ -42,3 +42,28 @@ int suma_trig_sup_sinPrincipal(int fil,int col,int mat[MAX][MAX])
 
     return suma;
 }
+
+void mostrar_diagonal_principal(int fil, int col, int mat[MAX][MAX])
+{
+
+    int i,k;
+
+    for (i=0,k=1;i<fil;i++,k+=2)
+        printf("%*d\n",k,mat[i][i]);
+
+}
+
+void mostrar_triag_sup_conDiagPrincipal(int fil, int col, int mat[MAX][MAX])
+{
+
+    int i,k=5,j;
+
+    for (i=0;i<fil;i++)
+    {
+        for(j=i;j<col;j++)
+            printf("%*d",k ,mat[i][j]);
+        printf("\n%*c",k+k*i,' ');
+    }
+
+
+}

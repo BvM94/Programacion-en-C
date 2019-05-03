@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1556861890 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\prueba de matrices\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../funciones_matrices.h"
+
+1556861821 c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_matrices.h
+	<stdio.h>
+	<stdlib.h>
+
