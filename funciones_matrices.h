@@ -15,5 +15,7 @@ void mostrar_diagonal_principal(int fil, int col, int mat[MAX][MAX]);
 
 void mostrar_triag_sup_conDiagPrincipal(int fil, int col, int mat[MAX][MAX]);
 
+void mostrar_triag_sup_SinDiagPrincipal(int fil, int col, int mat[MAX][MAX]);
+
 
 #endif // FUNCIONES_MATRICES_H_INCLUDED
