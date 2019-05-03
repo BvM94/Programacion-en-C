@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../funciones_comparacion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../funciones_comparacion.h" />
 		<Unit filename="../funciones_vectores.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -106,12 +106,12 @@ int vec_eliminar_ocurrencias(int* vec, int* ce, const int* tam,const int* valor)
 void orden_por_Seleccion_Ascendente(int * vec, int* ce)
 {
     int *i,*m;
-    int* ultimo = v+*ce-1
+    int* ultimo = vec+*ce-1;
 
-    for(i=v,i< ultimo,i++)
+    for(i=vec;i< ultimo;i++)
     {
 
-        m=buscar_menor(i,ult); //busca menor entre dos posiciones
+        m=buscar_menor(i,ultimo); //busca menor entre dos posiciones
 
         if(m!=i)
             intercambiar_ints(m,i);
@@ -123,13 +123,13 @@ int* buscar_menor(int* d, int* h)
    int* m = d;
    int* j;
 
-   for(j=d+1;j <= h , j++)
+   for(j=d+1;j <= h ; j++)
        if(*j < *m)
             m=j;
     return m;
 }
 
-void intercambio_ints(int* a, int* b)
+void intercambiar_ints(int* a, int* b)
 {
     int aux = *a;
     (*a)=*b;
@@ -141,10 +141,10 @@ void orden_seleccion_asc_generico(void* v, int* ce,size_t tamElem,t_cmp comparar
     void *i,*m;
     void* ultimo = v+(*ce-1)*tamElem;
 
-    for(i=v,i< ultimo,i+=tamElem)
+    for(i=v;i< ultimo;i+=tamElem)
     {
 
-        m=buscar_menor_generica(i,ult,tamElem,comparar); //busca menor entre dos posiciones de memoria
+        m=buscar_menor_generica(i,ultimo,tamElem,comparar); //busca menor entre dos posiciones de memoria
 
         if(m!=i)
             intercambiar_elementos(m,i,tamElem);
@@ -156,8 +156,8 @@ void* buscar_menor_generica(void* d, void* h, size_t tamElem,t_cmp comparar)
    void* m = d;
    void* j;
 
-   for(j=d+tamElem;j <= h , j+=tamElem)
-       if(compara(j,m)<0)
+   for(j=d+tamElem;j <= h ; j+=tamElem)
+       if(comparar(j,m)<0)
             m=j;
     return m;
 }
@@ -174,4 +174,5 @@ int intercambiar_elementos(void *a , void*b, size_t tamElem)
     memcpy(b,aux,tamElem);
 
     free(aux);
+    return 1;
 }

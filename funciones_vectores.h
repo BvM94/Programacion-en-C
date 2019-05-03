@@ -19,12 +19,12 @@ int vec_eliminar_ocurrencias(int* vec, int* ce, const int* tam,const int* valor)
 //ordenamiento
 
 void orden_por_Seleccion_Ascendente(int * vec, int* ce);
-void intercambio_ints(int* a, int* b);
+void intercambiar_ints(int* a, int* b);
 int* buscar_menor(int* d, int* h); // busca es menor entre dos direcciones de memoria
 
 //ordenamiento generico
 
-void orden_seleccion_asc_generico(void* v, int* ce,size_t tamElem); // ordenamiento generica
+void orden_seleccion_asc_generico(void* v, int* ce,size_t tamElem,t_cmp comparar); // ordenamiento generica
 int intercambiar_elementos(void *a , void*b, size_t tamElem);
 void* buscar_menor_generica(void* d, void* h, size_t tamElem,t_cmp comparar);
 
