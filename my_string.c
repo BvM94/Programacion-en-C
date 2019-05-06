@@ -266,3 +266,17 @@ void a_minuscula(char* caracter)
     if(*caracter >= 'A' && *caracter <= 'Z')
         *caracter += ('a'- 'A');
 }
+
+size_t mi_strlen(const char *s)
+{
+    size_t cant_chars=0;
+    const char* c = s;
+
+    while(*c)
+    {
+        c++;
+        cant_chars++;
+    }
+    return cant_chars;
+}
+

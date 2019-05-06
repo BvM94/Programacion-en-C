@@ -44,5 +44,7 @@ int es_letra(const char caracter);
 void a_mayuscula(char* caracter);
 void a_minuscula(char* caracter);
 
+size_t mi_strlen(const char *s);
+
 
 #endif // MY_STRING_H_INCLUDED

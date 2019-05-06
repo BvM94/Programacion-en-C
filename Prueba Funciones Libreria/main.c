@@ -16,37 +16,44 @@ int main()
 //        return 1;
 //    }
 
-    printf("%s\n\n",numStr);
-    printf("%d\n\n",mi_atoi(numStr));
-
-
-
-
-//    int num=mi_atoi(numStr);
-//    printf("El numero es %d\n,num");
-
-    printf("%d de base 10 a base %d = %s\n\n  ",numInt , base , mi_itoa(numInt,numStr2,base));
-
-    //printf("Entero: %d ---- String: %s",numInt, mi_itoa(numInt,numStr2));
-
-
-    ////////////////////////////////////////////////////////////////////////////////
-    //NORMALIZAR
-    char frase[]={"hOLA.-+*QUE/  tAl?.;-+/"};
-    char frasemodificada[50];
-
-    //sec->act = (char*)cadorig;
-
-    printf("frase orginal : %s\n\n",frase);
-
-    normalizar(frase,frasemodificada);
-
-    printf("frase modificada : %s\n\n",frasemodificada);
+//    printf("%s\n\n",numStr);
+//    printf("%d\n\n",mi_atoi(numStr));
+//
+//
+//
+//
+////    int num=mi_atoi(numStr);
+////    printf("El numero es %d\n,num");
+//
+//    printf("%d de base 10 a base %d = %s\n\n  ",numInt , base , mi_itoa(numInt,numStr2,base));
+//
+//    //printf("Entero: %d ---- String: %s",numInt, mi_itoa(numInt,numStr2));
+//
+//
+//    ////////////////////////////////////////////////////////////////////////////////
+//    //NORMALIZAR
+//    char frase[]={"hOLA.-+*QUE/  tAl?.;-+/"};
+//    char frasemodificada[50];
+//
+//    //sec->act = (char*)cadorig;
+//
+//    printf("frase orginal : %s\n\n",frase);
+//
+//    normalizar(frase,frasemodificada);
+//
+//    printf("frase modificada : %s\n\n",frasemodificada);
 
     //HOLA Que Tal\0
+    /////////////////////////////////////////////////////////////////////////////
 
+    char cad[]="Hola";
+    int cant_chars;
 
+    cant_chars=mi_strlen(cad);
 
+    printf("%d",cant_chars);
+    printf("%d",mi_strlen(cad));
+    printf("%d",mi_strlen("Adios"));
 
     return 0;
 }
