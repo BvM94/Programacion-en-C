@@ -280,3 +280,23 @@ size_t mi_strlen(const char *s)
     return cant_chars;
 }
 
+/**
+*Añade una copia de la cadena apuntada por s2 (incluyendo el carácter nulo) al final de
+*la cadena apuntada por s1. El carácter inicial de s2 sobrescribe el carácter nulo al final
+*de s1.
+**/
+
+char *mi_strcat(char*s1, const char *s2)
+{
+    char* ini_cad = s1;
+    while(*s2)
+    {
+        *s1=*s2;
+        s1++;
+        s2++;
+    }
+    s1++;
+    *s1='\0';
+
+    return ini_cad;
+}

@@ -46,14 +46,27 @@ int main()
     //HOLA Que Tal\0
     /////////////////////////////////////////////////////////////////////////////
 
-    char cad[]="Hola";
-    int cant_chars;
+//    char cad[]="Hola";
+//    int cant_chars;
+//
+//    cant_chars=mi_strlen(cad);
+//
+//    printf("%d",cant_chars);
+//    printf("%d",mi_strlen(cad));
+//    printf("%d",mi_strlen("Adios"));
 
-    cant_chars=mi_strlen(cad);
+    /////////////////////////////////////////////////////////////////////////////
 
-    printf("%d",cant_chars);
-    printf("%d",mi_strlen(cad));
-    printf("%d",mi_strlen("Adios"));
+    char cad1[]="hola como estas?";
+    char cad2[20];
+
+    mi_strcat(cad2,cad1);
+
+    printf("%s\n\n",cad1);
+    printf("%s\n\n",cad2);
+
+
+
 
     return 0;
 }
