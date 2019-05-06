@@ -288,15 +288,17 @@ size_t mi_strlen(const char *s)
 
 char *mi_strcat(char*s1, const char *s2)
 {
-    char* ini_cad = s1;
+    char* cad_fin = s1+mi_strlen(s1);
     while(*s2)
     {
-        *s1=*s2;
-        s1++;
+        *cad_fin=*s2;
+        cad_fin++;
         s2++;
     }
-    s1++;
-    *s1='\0';
+    cad_fin++;
+    *cad_fin='\0';
 
-    return ini_cad;
+    return s1;
 }
+
+

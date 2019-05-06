@@ -57,14 +57,14 @@ int main()
 
     /////////////////////////////////////////////////////////////////////////////
 
-    char cad1[]="hola como estas?";
-    char cad2[20];
+//char s1[11] = "Hola ";
+//char s2[6] = "amigos";
+//printf( "s1=%s\t", s1 );
+//printf( "s2=%s\n", s2 );
+//mi_strcat( s1, s2 );
+//printf( "s1=%s\n", s1 );
 
-    mi_strcat(cad2,cad1);
-
-    printf("%s\n\n",cad1);
-    printf("%s\n\n",cad2);
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 
