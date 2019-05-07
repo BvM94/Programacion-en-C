@@ -345,3 +345,15 @@ int mi_strcmp(const char *s1, const char *s2)
 
     return sumaS1-sumaS2;
 }
+
+void *mi_memcpy(void *s1, const void *s2, size_t n)
+{
+    char* c1 = (char*)s1;
+    const char* c2 = (const char*)s2;
+    int i;
+
+    for (i=0; i<n; i++,c2++,c1++)
+        *c1=(*c2);
+
+    return s1;
+}

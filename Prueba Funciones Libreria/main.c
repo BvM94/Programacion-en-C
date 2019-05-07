@@ -4,10 +4,10 @@
 
 int main()
 {
-    char numStr[45]="-6666";
-    int numInt=-4;
-    int base= 2;
-    char numStr2[45];
+//    char numStr[45]="-6666";
+//    int numInt=-4;
+//    int base= 2;
+//    char numStr2[45];
 //   ingresar_num_txt(numStr);
 
 //    if(!es_numero(numStr))
@@ -76,26 +76,51 @@ int main()
 ////////////////////////////////////////////////////////////////////////////////////
 
 
-    char s1[] = "Abejaaa";
-    char s2[] = "abeja";
+//    char s1[] = "Abejaaa";
+//    char s2[] = "abeja";
+//    int i;
+//
+//    printf( "s1=%s\t", s1 );
+//    printf( "s2=%s\n", s2 );
+//    i = mi_strcmp( s1, s2 );
+//
+//    printf( "s1 es " );
+//    if( i < 0 )
+//        printf( "menor que" );
+//    else if( i > 0 )
+//        printf( "mayor que" );
+//    else
+//        printf( "igual a" );
+//    printf( " s2\n" );
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+    char a[8] = "abcdefg";
+    char b[10];
+    char *ptr;
     int i;
 
-    printf( "s1=%s\t", s1 );
-    printf( "s2=%s\n", s2 );
-    i = mi_strcmp( s1, s2 );
+    ptr=mi_memcpy( b, a, 5 );
 
-    printf( "s1 es " );
-    if( i < 0 )
-        printf( "menor que" );
-    else if( i > 0 )
-        printf( "mayor que" );
-    else
-        printf( "igual a" );
-    printf( " s2\n" );
+    for( i=0; i<7; i++ )
+        printf( "a[%d]=%c ", i, a[i] );
 
+    printf( "\n" );
+
+    for( i=0; i<10; i++ )
+        printf( "ptr[%d]=%c ", i, ptr[i] );
+
+    printf( "\n" );
+
+    printf("a: %s \n\n",a);
+    printf("ptr: %s\n\n",ptr);
+    printf("b: %s \n\n",b);
 
     return 0;
 }
+
+
 
 
 
