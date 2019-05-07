@@ -412,3 +412,17 @@ char *mi_strpbrk(const char *s1, const char *s2)
 
     return NULL;
 }
+
+char *mi_strrchr(char *s, int c)
+{
+    char* ultAparicion=NULL;
+    unsigned char caracter = (unsigned char)c;
+    while(*s)
+    {
+        if(*s == caracter)
+            ultAparicion=s;
+        s++;
+    }
+
+    return (*s==c?s:ultAparicion);
+}

@@ -127,11 +127,20 @@ int main()
 
 /////////////////////////////////////////////////////////////////////////////////////
 
-    char s1[13] = "Hola a todos";
-    char s2[] = "eHcip";
-    printf( "s1=%s\n", s1 );
-    printf( "s2=%s\n", s2 );
-    printf( "strpbrk(s1,s2) = %s\n", mi_strpbrk( s1, s2 ) );
+//    char s1[13] = "Hola a todos";
+//    char s2[] = "eHcip";
+//    printf( "s1=%s\n", s1 );
+//    printf( "s2=%s\n", s2 );
+//    printf( "strpbrk(s1,s2) = %s\n", mi_strpbrk( s1, s2 ) );
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//    char s[] = "Hola amigos";
+//    char c = 'a';
+//    printf( "s=%s\t", s );
+//    printf( "c=%c\n", c );
+//    printf( "strrchr=%s\n", mi_strrchr( s, c ) );
+
 
     return 0;
 }
