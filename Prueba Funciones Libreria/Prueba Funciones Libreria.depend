@@ -12,15 +12,15 @@
 	<stdlib.h>
 	"../my_string.h"
 
-1556318044 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\my_string.c
+1557105528 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\my_string.c
 	"my_string.h"
 
-1556685776 c:\users\usuario\desktop\programacion\github\programacion-en-c\my_string.h
+1557105337 c:\users\usuario\desktop\programacion\github\programacion-en-c\my_string.h
 	<string.h>
 	<stdlib.h>
 	<stdio.h>
 
-1556317590 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\prueba funciones libreria\main.c
+1557105819 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\prueba funciones libreria\main.c
 	<stdio.h>
 	<stdlib.h>
 	"../my_string.h"

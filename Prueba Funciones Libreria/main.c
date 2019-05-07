@@ -8,7 +8,7 @@ int main()
     int numInt=-4;
     int base= 2;
     char numStr2[45];
- //   ingresar_num_txt(numStr);
+//   ingresar_num_txt(numStr);
 
 //    if(!es_numero(numStr))
 //    {
@@ -65,6 +65,13 @@ int main()
 //printf( "s1=%s\n", s1 );
 
 //////////////////////////////////////////////////////////////////////////////////
+
+    char s2[8] = "abcdefg";
+    char s1[8];
+    mi_strcpy( s1, s2 );
+   // strcpy( s1, s2 );
+    printf( "s2=%s\n", s2 );
+    printf( "s1=%s\n", s1 );
 
 
 

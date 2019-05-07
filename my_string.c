@@ -14,7 +14,7 @@ int mi_atoi(char* str)
 
     while(*str != '\0')
     {
-       // printf("%c\n",*str);
+        // printf("%c\n",*str);
         num*=10;
         num+=(*str)-'0';
         str++;
@@ -31,11 +31,11 @@ void ingresar_num_txt(char* numStr)
 
 
     while(!es_numero(numStr))
-        {
-            puts("La cadena ingresada no es un numero, Ingresar Nuevamente:");
-            fflush(stdin);
-            scanf("%s",numStr);
-        }
+    {
+        puts("La cadena ingresada no es un numero, Ingresar Nuevamente:");
+        fflush(stdin);
+        scanf("%s",numStr);
+    }
 }
 
 int es_numero(char*  Str)
@@ -215,8 +215,8 @@ int fin_sec_pal(t_sec_pal * sec)
 
 void escribir_caracter(t_sec_pal* sec, char caracter)
 {
-  *sec->act = caracter;
-   sec->act++;
+    *sec->act = caracter;
+    sec->act++;
 }
 
 void escribir_palabra(t_sec_pal* sec, t_palabra * pal)
@@ -228,9 +228,9 @@ void escribir_palabra(t_sec_pal* sec, t_palabra * pal)
 
     while(inipal <= finpal)
     {
-            *sec->act = *inipal;
-            inipal++;
-            sec->act++;
+        *sec->act = *inipal;
+        inipal++;
+        sec->act++;
     }
     pal->fin = sec->act -1;
 }
@@ -252,7 +252,7 @@ void formatear_palabra(t_palabra* pal)
 
 void posicionamiento_sec_pal(t_sec_pal* sec,int pos)
 {
-  (sec->act) += pos;
+    (sec->act) += pos;
 }
 
 void a_mayuscula(char* caracter)
@@ -301,4 +301,19 @@ char *mi_strcat(char*s1, const char *s2)
     return s1;
 }
 
+char *mi_strcpy(char *s1, const char *s2)
+{
+    char* ini_cad = s1;
+    const char* cad2=s2;
+    while(*cad2)
+    {
+        *s1=*cad2;
+        cad2++;
+        s1++;
+    }
 
+    *s1='\0';
+    s1=ini_cad;
+
+    return s1;
+}
