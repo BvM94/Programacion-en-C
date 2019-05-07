@@ -96,26 +96,34 @@ int main()
 
 /////////////////////////////////////////////////////////////////////////////////////
 
-    char a[8] = "abcdefg";
-    char b[10];
-    char *ptr;
-    int i;
+//    char a[8] = "abcdefg";
+//    char b[10];
+//    char *ptr;
+//    int i;
+//
+//    ptr=mi_memcpy( b, a, 5 );
+//
+//    for( i=0; i<7; i++ )
+//        printf( "a[%d]=%c ", i, a[i] );
+//
+//    printf( "\n" );
+//
+//    for( i=0; i<10; i++ )
+//        printf( "ptr[%d]=%c ", i, ptr[i] );
+//
+//    printf( "\n" );
+//
+//    printf("a: %s \n\n",a);
+//    printf("ptr: %s\n\n",ptr);
+//    printf("b: %s \n\n",b);
 
-    ptr=mi_memcpy( b, a, 5 );
+/////////////////////////////////////////////////////////////////////////////////////
 
-    for( i=0; i<7; i++ )
-        printf( "a[%d]=%c ", i, a[i] );
-
-    printf( "\n" );
-
-    for( i=0; i<10; i++ )
-        printf( "ptr[%d]=%c ", i, ptr[i] );
-
-    printf( "\n" );
-
-    printf("a: %s \n\n",a);
-    printf("ptr: %s\n\n",ptr);
-    printf("b: %s \n\n",b);
+    char s1[13] = "Hola a todos";
+    char s2[3] = "la";
+    printf( "s1=%s\n", s1 );
+    printf( "s2=%s\n", s2 );
+    printf( "strstr(s1,s2) = %s\n", mi_strstr( s1, s2 ) );
 
     return 0;
 }

@@ -357,3 +357,38 @@ void *mi_memcpy(void *s1, const void *s2, size_t n)
 
     return s1;
 }
+
+char *mi_strstr(const char *s1, const char *s2)
+{
+    const char* c2 = s2;
+    const char* c1 = s1;
+    const char* iniciocad;
+
+    if(!mi_strlen(s2))
+        return (char*)s1;
+
+    while(*c1)
+    {
+        if(*c2 == *c1)
+        {
+            iniciocad=c1;
+            do
+            {
+                c2++;
+                c1++;
+            }while(*c2==*c1);
+
+            if(!*c2)
+                return (char*)iniciocad;
+            else
+                c2=s2;
+
+        }
+        else
+        {
+            c1++;
+        }
+    }
+
+    return NULL;
+}
