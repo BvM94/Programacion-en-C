@@ -376,7 +376,8 @@ char *mi_strstr(const char *s1, const char *s2)
             {
                 c2++;
                 c1++;
-            }while(*c2==*c1);
+            }
+            while(*c2==*c1);
 
             if(!*c2)
                 return (char*)iniciocad;
@@ -388,6 +389,25 @@ char *mi_strstr(const char *s1, const char *s2)
         {
             c1++;
         }
+    }
+
+    return NULL;
+}
+
+char *mi_strpbrk(const char *s1, const char *s2)
+{
+    const char *c1=s1,*c2=s2;
+
+    while(*c1)
+    {
+        while(*c2)
+        {
+            if(*c2==*c1)
+                return (char*)c1;
+            c2++;
+        }
+        c1++;
+        c2=s2;
     }
 
     return NULL;
