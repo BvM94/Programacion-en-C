@@ -66,16 +66,37 @@ int main()
 
 //////////////////////////////////////////////////////////////////////////////////
 
-    char s2[8] = "abcdefg";
-    char s1[8];
-    mi_strcpy( s1, s2 );
-   // strcpy( s1, s2 );
-    printf( "s2=%s\n", s2 );
-    printf( "s1=%s\n", s1 );
+//    char s2[8] = "abcdefg";
+//    char s1[8];
+//    mi_strcpy( s1, s2 );
+//    // strcpy( s1, s2 );
+//    printf( "s2=%s\n", s2 );
+//    printf( "s1=%s\n", s1 );
 
+////////////////////////////////////////////////////////////////////////////////////
+
+
+    char s1[] = "Abejaaa";
+    char s2[] = "abeja";
+    int i;
+
+    printf( "s1=%s\t", s1 );
+    printf( "s2=%s\n", s2 );
+    i = mi_strcmp( s1, s2 );
+
+    printf( "s1 es " );
+    if( i < 0 )
+        printf( "menor que" );
+    else if( i > 0 )
+        printf( "mayor que" );
+    else
+        printf( "igual a" );
+    printf( " s2\n" );
 
 
     return 0;
 }
+
+
 
 

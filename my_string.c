@@ -317,3 +317,31 @@ char *mi_strcpy(char *s1, const char *s2)
 
     return s1;
 }
+
+int mi_strcmp(const char *s1, const char *s2)
+{
+    int sumaS1=0;
+    int sumaS2=0;
+
+
+    while(*s1 && *s2)
+    {
+        sumaS1+=(*s1);
+        sumaS2+=(*s2);
+        s1++;
+        s2++;
+
+    }
+    while(*s1)
+    {
+        sumaS1+=(*s1);
+        s1++;
+    }
+    while(*s2)
+    {
+        sumaS2+=(*s2);
+        s2++;
+    }
+
+    return sumaS1-sumaS2;
+}
