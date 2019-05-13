@@ -6,6 +6,9 @@ int main(int argc, char* argv[])
     FILE* pbverduMovi;
     FILE* pbverduActualizado;
 
+    /////////////////////////////////////////////////////////////////////////////////
+    /** Prueba Merge de Archivos **/
+
     crear_lote_prueba_productos_verduleria();
     crear_lote_prueba_productos_verduleriaMovimientos();
 
@@ -34,6 +37,28 @@ int main(int argc, char* argv[])
     fclose(pbverduActualizado);
     fclose(pbverduleria);
     fclose(pbverduMovi);
+//////////////////////////////////////////////////////////////////////////////////////
+
+/** Prueba ejercicio: Pasaje de archivo binario a archivo de texto**/
+
+FILE* pfproductosfijoTXT;
+FILE* pfproductosVariableTXT;
+
+pfproductosfijoTXT= fopen("ProductosFIJOTXT.txt","wt");
+pfproductosVariableTXT= fopen("ProductosVARIABLETXT.txt","wt");
+pbverduleria = fopen("productosVerduleria","rb");
+
+if(!pfproductosfijoTXT || !pfproductosVariableTXT || !pbverduleria )
+    return 1;
+
+Pasaje_Bin_A_TXT_logitud_variable(pbverduleria,pfproductosVariableTXT);
+
+Pasaje_Bin_A_TXT_logitud_fija(pbverduleria,pfproductosfijoTXT);
+
+
+
+
+
 
 
 
@@ -141,7 +166,7 @@ int main(int argc, char* argv[])
 //
 //    fread(&emp,sizeof(t_empleado),1,bin);
 //
-//    /**De binario a texto  Para longitud  variable **/
+   /**De binario a texto  Para longitud  variable **/
 //    while(!feof(bin))
 //    {
 //        fprintf(txt,"%d|%s|%c|%d|%d|%d|%2f\n",emp.dni,emp.apyn,emp.sexo,
@@ -158,7 +183,7 @@ int main(int argc, char* argv[])
 //        fread(&emp,sizeof(t_empleado),1,bin);
 //    }
 //
-//    /**De texto a binario**/
+    /**De texto a binario**/
 //
 //    FILE* bin = fopen(argv[1],"wb");
 //    FILE* txt = fopen(argv[2],"rt");

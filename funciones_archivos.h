@@ -41,6 +41,9 @@ void mostrar_Archiv_prodMovimiento_verduleria_binario(FILE* pfb);
 
 void actualizar_Productos_verduleria(FILE* pb1,FILE* pb2,FILE*pbfinal);
 
+void Pasaje_Bin_A_TXT_logitud_variable(FILE* pfBIN,FILE* pfTXT);
+void Pasaje_Bin_A_TXT_logitud_fija(FILE* pfBIN,FILE* pfTXT);
+
 //int txtVariableABin (char* linea,t_empleado *emp);
 
 

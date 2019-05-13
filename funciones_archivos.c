@@ -116,11 +116,39 @@ void actualizar_Productos_verduleria(FILE* pbhistorico,FILE* pbmov,FILE*pbfinal)
         fwrite(&prodAUX,sizeof(t_prodVerduleria),1,pbfinal);
         fread(&mov,sizeof(t_mov),1,pbmov);
     }
-
-
 }
 
+void Pasaje_Bin_A_TXT_logitud_variable(FILE* pfBIN,FILE* pfTXT)
+{
+ t_prodVerduleria prod;
 
+ fseek(pfBIN,0,SEEK_SET);
+ fseek(pfTXT,0,SEEK_SET);
+
+ fread(&prod,sizeof(t_prodVerduleria),1,pfBIN);
+
+ while(!feof(pfBIN))
+ {
+    fprintf(pfTXT,"%s|%s|%d|%0.2f\n",prod.cod,prod.descr,prod.cant,prod.precio);
+    fread(&prod,sizeof(t_prodVerduleria),1,pfBIN);
+ }
+}
+
+void Pasaje_Bin_A_TXT_logitud_fija(FILE* pfBIN,FILE* pfTXT)
+{
+ t_prodVerduleria prod;
+
+ fseek(pfBIN,0,SEEK_SET);
+ fseek(pfTXT,0,SEEK_SET);
+
+ fread(&prod,sizeof(t_prodVerduleria),1,pfBIN);
+
+ while(!feof(pfBIN))
+ {
+    fprintf(pfTXT,"%-7s%-51s%d%0.2f\n",prod.cod,prod.descr,prod.cant,prod.precio);
+    fread(&prod,sizeof(t_prodVerduleria),1,pfBIN);
+ }
+}
 
 
 //int txtVariableABin (char* linea,t_empleado *emp)

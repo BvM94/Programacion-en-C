@@ -1,0 +1,4 @@
+A1     papa                                               500.00
+A4     tomate                                             205.00
+A7     manzana                                            103.50
+A11    lechuga                                            600.50

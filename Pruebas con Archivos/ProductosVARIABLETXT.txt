@@ -1,0 +1,4 @@
+A1|papa|50|0.00
+A4|tomate|20|5.00
+A7|manzana|10|3.50
+A11|lechuga|60|0.50
