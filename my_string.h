@@ -52,6 +52,6 @@ void *mi_memcpy(void *s1, const void *s2, size_t n);
 char *mi_strstr(const char *s1, const char *s2);
 char *mi_strpbrk(const char *s1, const char *s2);
 char *mi_strrchr(char *s, int c);
-
+size_t mi_strspn(const char *s1, const char *s2);
 
 #endif // MY_STRING_H_INCLUDED

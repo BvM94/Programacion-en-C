@@ -4,30 +4,30 @@
 
 int main()
 {
-//    char numStr[45]="-6666";
-//    int numInt=-4;
-//    int base= 2;
-//    char numStr2[45];
+    char numStr[45]="-66666";
+    int numInt=1454;
+    int base= 16;
+    char numStr2[45];
 //   ingresar_num_txt(numStr);
-
+//
 //    if(!es_numero(numStr))
 //    {
 //        puts("La cadena ingresada no es un numero");
 //        return 1;
 //    }
-
+//
 //    printf("%s\n\n",numStr);
 //    printf("%d\n\n",mi_atoi(numStr));
-//
-//
-//
-//
-////    int num=mi_atoi(numStr);
-////    printf("El numero es %d\n,num");
-//
-//    printf("%d de base 10 a base %d = %s\n\n  ",numInt , base , mi_itoa(numInt,numStr2,base));
-//
-//    //printf("Entero: %d ---- String: %s",numInt, mi_itoa(numInt,numStr2));
+
+
+
+
+//    int num=mi_atoi(numStr);
+//    printf("El numero es %d\n,num");
+
+    printf("%d de base 10 a base %d = %s\n\n  ",numInt , base , mi_itoa(numInt,numStr2,base));
+
+    //printf("Entero: %d ---- String: %s",numInt, mi_itoa(numInt,numStr2));
 //
 //
 //    ////////////////////////////////////////////////////////////////////////////////
@@ -140,6 +140,14 @@ int main()
 //    printf( "s=%s\t", s );
 //    printf( "c=%c\n", c );
 //    printf( "strrchr=%s\n", mi_strrchr( s, c ) );
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//    char s1[13] = "Hola a todos";
+//    char s2[] = "";
+//    printf( "s1=%s\n", s1 );
+//    printf( "s2=%s\n", s2 );
+//    printf( "strspn(s1,s2) = %d\n", strspn( s1, s2 ) );
 
 
     return 0;

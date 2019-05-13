@@ -426,3 +426,21 @@ char *mi_strrchr(char *s, int c)
 
     return (*s==c?s:ultAparicion);
 }
+
+size_t strspn(const char *s1, const char *s2)
+{
+    size_t cant_carac_cons=0;
+    char caracter;
+
+    while(*s1)
+    {
+        caracter=*s1;
+        if(!mi_strstr(s2,&caracter))
+            return cant_carac_cons;
+
+        cant_carac_cons++;
+        s1++;
+    }
+
+    return cant_carac_cons;
+}
