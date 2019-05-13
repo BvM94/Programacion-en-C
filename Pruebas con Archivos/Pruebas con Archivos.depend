@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1557761519 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_archivos.c
+1557765493 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_archivos.c
 	"funciones_archivos.h"
 
-1557761076 c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_archivos.h
+1557765054 c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_archivos.h
 	<stdio.h>
 	<stdlib.h>
 	"funciones_fechas.h"
@@ -14,7 +14,7 @@
 1555116642 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\funciones_fechas.c
 	"funciones_fechas.h"
 
-1557761364 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\pruebas con archivos\main.c
+1557768467 source:c:\users\usuario\desktop\programacion\github\programacion-en-c\pruebas con archivos\main.c
 	"main.h"
 
 1557272918 c:\users\usuario\desktop\programacion\github\programacion-en-c\pruebas con archivos\main.h

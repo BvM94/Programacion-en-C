@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "funciones_fechas.h"
 
 #define FALLO 0
@@ -33,7 +34,13 @@ typedef struct
 } t_empleado;
 
 void crear_lote_prueba_productos_verduleria();
+void crear_lote_prueba_productos_verduleriaMovimientos();
+
 void mostrar_Archiv_prod_verduleria_binario(FILE* pfb);
+void mostrar_Archiv_prodMovimiento_verduleria_binario(FILE* pfb);
+
+void actualizar_Productos_verduleria(FILE* pb1,FILE* pb2,FILE*pbfinal);
+
 //int txtVariableABin (char* linea,t_empleado *emp);
 
 

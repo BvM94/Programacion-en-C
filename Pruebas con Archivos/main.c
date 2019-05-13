@@ -5,20 +5,35 @@ int main(int argc, char* argv[])
     FILE* pbverduleria;
     FILE* pbverduMovi;
     FILE* pbverduActualizado;
-    //crear_lote_prueba_productos_verduleria();
+
+    crear_lote_prueba_productos_verduleria();
     crear_lote_prueba_productos_verduleriaMovimientos();
+
     pbverduleria=fopen("productosVerduleria","rb");
-    pbverduMovi=fopen("productosVerduleria","rb");
-    pbverduActualizado=fopen("productosVerduleria","wb");
+    pbverduMovi=fopen("MovimientosVerduleria","rb");
+    pbverduActualizado=fopen("productosVerduActualizado","wb");
 
     if(!pbverduleria || !pbverduActualizado || !pbverduMovi)
         return 1;
 
     mostrar_Archiv_prod_verduleria_binario(pbverduleria);
 
+    mostrar_Archiv_prodMovimiento_verduleria_binario(pbverduMovi);
+
+    actualizar_Productos_verduleria(pbverduleria,pbverduMovi,pbverduActualizado);
 
 
+    fclose(pbverduActualizado);
+    pbverduActualizado= fopen("productosVerduActualizado","rb");
 
+   if(!pbverduActualizado)
+        return 1;
+
+    mostrar_Archiv_prod_verduleria_binario(pbverduActualizado);
+
+    fclose(pbverduActualizado);
+    fclose(pbverduleria);
+    fclose(pbverduMovi);
 
 
 
