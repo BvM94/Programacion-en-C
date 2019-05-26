@@ -17,6 +17,7 @@ int main()
     /**
         Esta función debe crear el acta
     */
+
     generar_acta_res("../Archivos/alumnos.bin","../Archivos/notas.txt", "../Archivos/acta.txt", "../Archivos/observaciones.txt");
 
 
