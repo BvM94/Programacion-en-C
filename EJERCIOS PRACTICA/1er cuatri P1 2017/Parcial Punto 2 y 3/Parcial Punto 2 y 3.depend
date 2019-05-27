@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1558985335 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial punto 2 y 3\funciones.c
+	"funciones.h"
+
+1558985335 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial punto 2 y 3\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1558984127 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial punto 2 y 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
