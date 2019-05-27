@@ -18,8 +18,8 @@ int main()
         Esta función debe crear el acta
     */
 
-    generar_acta_res("../Archivos/alumnos.bin","../Archivos/notas.txt", "../Archivos/acta.txt", "../Archivos/observaciones.txt");
-
+    //generar_acta_res("../Archivos/alumnos.bin","../Archivos/notas.txt", "../Archivos/acta.txt", "../Archivos/observaciones.txt");
+    generar_acta("../Archivos/alumnos.bin","../Archivos/notas.txt", "../Archivos/acta.txt", "../Archivos/observaciones.txt");
 
     printf("\n\n*********ACTA***********\n");
     mostrar_archivo_acta("../Archivos/acta.txt");

@@ -59,3 +59,41 @@
 
 1496794880 source:c:\users\dell\desktop\mis parciales resueltos\parciales\1er cuatri p1 2017\parcial\utilitarias.c
 
+1558929044 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial\actas.c
+	<actas.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1558920099 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\include\actas.h
+	"lista.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1558925500 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\include\lista.h
+	<tipos.h>
+
+1558911051 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\include\tipos.h
+
+1558920467 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\include\utilitarias.h
+	<tipos.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558926128 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+
+1558916480 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<actas.h>
+	<utilitarias.h>
+
+1558928053 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er cuatri p1 2017\parcial\utilitarias.c
+	"../include/utilitarias.h"
+

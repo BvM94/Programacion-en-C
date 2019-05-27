@@ -56,6 +56,6 @@ void vaciar_lista(t_lista * plista);
 
 int sacar_menor_lista (t_lista * plista, t_info* pinfo, int (*comp)(const t_info *, const t_info*) );
 
-t_nodo* buscar_menor(t_lista* plista,int (*comp)(const t_info *, const t_info*));
+t_nodo** buscar_menor(t_lista* plista,int (*comp)(const t_info *, const t_info*));
 
 #endif // LISTA_H_INCLUDED

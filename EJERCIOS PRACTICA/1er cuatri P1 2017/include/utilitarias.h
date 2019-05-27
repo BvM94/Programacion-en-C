@@ -3,7 +3,10 @@
 #include<tipos.h>
 #define TAM_LINEA 50
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+typedef t_acta t_info;
 
 void crear_archivo_alumnos(const char * path);
 
