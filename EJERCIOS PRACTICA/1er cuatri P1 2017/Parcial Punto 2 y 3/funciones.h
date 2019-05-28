@@ -23,10 +23,10 @@ int es_biciesto(const int anio);
 
 int dia_del_anio(const t_fecha *f);
 
-int dias_entre_fechas(const t_fecha desde , const t_fecha hasta);
+int dias_entre_fechas(const t_fecha* desde , const t_fecha* hasta);
 
-int dia_de_la_semana(const t_fecha f);
+int dia_de_la_semana(const t_fecha* f);
 
-
+int cant_dias_anio(const int anio);
 
 #endif // FUNCIONES_H_INCLUDED
