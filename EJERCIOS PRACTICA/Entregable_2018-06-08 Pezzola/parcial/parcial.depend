@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1559175005 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\parcial\banco.c
+	<banco.h>
+	<lista.h>
+	<utilitarias.h>
+	<string.h>
+	<stdlib.h>
+
+1559162876 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\include\banco.h
+	<stdio.h>
+	<tipos.h>
+	<lista.h>
+
+1477086339 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\include\tipos.h
+
+1477086341 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\include\lista.h
+	<tipos.h>
+
+1559168197 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\include\utilitarias.h
+	<banco.h>
+
+1559169174 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<banco.h>
+	<utilitarias.h>
+
+1559175005 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\parcial\utilitarias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<utilitarias.h>
+	<banco.h>
+
+1559170595 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2018-06-08 pezzola\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+	<stdio.h>
+
