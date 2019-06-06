@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1511203944 source:g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\2doparcialalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ListaD.h>
+	<Utilitarias2doPAlumnos.h>
+
+1511721905 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1511719592 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipotda.h
+	<Nota.h>
+
+1511719570 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\nota.h
+
+1464182109 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\punterosafuncion.h
+
+1511719782 g:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\utilitarias2dopalumnos.h
+	<stdio.h>
+	<ListaD.h>
+
+1531777045 source:d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\1erparcialalumnos\lista.c
+
+1541026791 source:d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\1erparcialalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Lista.h>
+	<Utilitarias1erPAlumnos.h>
+
+1541027238 d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1541026855 d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\include\tipotda.h
+	<Nota.h>
+
+1511719570 d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\include\nota.h
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\include\punterosafuncion.h
+
+1541026985 d:\dropbox\unlam\programacion\examenesenmaquina\2018-11-01\2018-11-01-entregable\include\utilitarias1erpalumnos.h
+	<stdio.h>
+	<Lista.h>
+
+1559754425 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\1erparcialalumnos\lista.c
+	"../include/Lista.h"
+	"../include/Defs.h"
+
+1559678735 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<stdlib.h>
+
+1541026856 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\tipotda.h
+	<Nota.h>
+
+1511719570 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\nota.h
+
+1464182110 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\punterosafuncion.h
+
+1479070042 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\defs.h
+
+1559753217 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\1erparcialalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Lista.h>
+	<Utilitarias1erPAlumnos.h>
+
+1559679235 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\include\utilitarias1erpalumnos.h
+	<stdio.h>
+	<Lista.h>
+	<string.h>
+
+1559751809 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\1er parcial - pan\1erparcialalumnos\utilitarias1erpalumnos.c
+	"../include/Utilitarias1erPAlumnos.h"
+	"../include/Lista.h"
+
