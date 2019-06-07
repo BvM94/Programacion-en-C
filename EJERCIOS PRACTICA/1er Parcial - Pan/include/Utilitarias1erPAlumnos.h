@@ -15,7 +15,7 @@ void mostrar_nota(void* pvd, void* datos);
 int comparar_nota(const void*, const void*);
 int comparar_dniYmateria(const void*, const void*);
 
-void actualizar_nota(t_nota* nota1,t_nota* nota2);
+void actualizar_nota(void* actualizado, const void* actualizador);
 
 
 #endif // UTILITARIAS2DOPALUMNOS_H

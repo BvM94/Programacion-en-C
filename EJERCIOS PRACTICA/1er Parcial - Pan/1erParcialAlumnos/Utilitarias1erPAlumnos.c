@@ -23,8 +23,11 @@ int comparar_dniYmateria(const void* dato1, const void* dato2)
     return -1;
 }
 
-void actualizar_nota(t_nota* nota1,t_nota* nota2)
+void actualizar_nota(void* actualizado, const void* actualizador)
 {
+    t_nota * nota1  = (t_nota*)actualizado;
+    t_nota * nota2  = (t_nota*)actualizador;
+
     if(nota1->nota == 0 || nota2->nota == 0)
     {
         nota1->nota = 0;

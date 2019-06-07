@@ -40,17 +40,8 @@ void procesar_lista(t_lista* pl)
 {
     ///Inserte el código acá...
 
-   // t_lista* pl=pLAlu;
-    t_dato_lista dato;
-    t_lista listaIni = *pl;
+    lista_ordenar_asc(pl,comparar_dniYmateria);
+    eliminar_duplicados_de_lista_ord(pl,comparar_dniYmateria,actualizar_nota);
+    lista_ordenar_asc(pl,comparar_nota);
 
-    while(*pl)
-    {
-        if(0==lista_sacar_por_clave(&(*pl)->psig,&dato,&(*pl)->info,comparar_dniYmateria))
-            actualizar_nota(&(*pl)->info,&dato);
-
-        pl=&(*pl)->psig;
-    }
-
-    //lista_ordenar_asc(&listaIni,comparar_nota);
 }
