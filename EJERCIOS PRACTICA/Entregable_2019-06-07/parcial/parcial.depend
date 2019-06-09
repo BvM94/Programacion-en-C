@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1560117100 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\biblioteca.c
+	<biblioteca.h>
+	<utilitarias.h>
+	<string.h>
+	<lista.h>
+
+1560115451 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\biblioteca.h
+	<stdio.h>
+	<tipos.h>
+	<stdlib.h>
+
+1559912046 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\tipos.h
+
+1560106976 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\utilitarias.h
+	<biblioteca.h>
+
+1560109823 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\lista.h
+	<tipos.h>
+
+1560112815 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\lista.c
+	<lista.h>
+	<stdlib.h>
+
+1560112441 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<biblioteca.h>
+	<utilitarias.h>
+
+1560111490 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\utilitarias.c
+	<stdio.h>
+	<string.h>
+	<utilitarias.h>
+	<biblioteca.h>
+

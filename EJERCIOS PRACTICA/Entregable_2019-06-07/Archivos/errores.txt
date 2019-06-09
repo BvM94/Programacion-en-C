@@ -1,0 +1,5 @@
+978-54-213-2004-8, ingreso:2 - Error de ISBN
+978-54-213-2300-6, ingreso:3 - Libro inexistente
+978-55-203-2004-8, ingreso:1 - Error de ISBN
+978-74-515-3194-7, ingreso:1 - Error de ISBN
+978-85-405-3203-8, ingreso:3 - Libro inexistente
