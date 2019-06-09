@@ -46,7 +46,7 @@ int lista_vacia(const t_lista* plista);
 int lista_vacia_res(const t_lista* plista);
 
 int lista_llena(const t_lista* plista);
-int lista_llena_res(const t_lista* plista);
+int lista_llena_res(const t_lista* plista);void eliminar_duplicados_de_lista_ord(t_lista* plista, t_cmp cmp, t_actualizar actualizar);
 
 void lista_ordenar_asc(t_lista* plista, t_cmp cmp);
 void lista_ordenar_asc_res(t_lista* plista, t_cmp cmp);
