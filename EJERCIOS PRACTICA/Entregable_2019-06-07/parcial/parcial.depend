@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1560117100 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\biblioteca.c
+1560120186 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\parcial\biblioteca.c
 	<biblioteca.h>
 	<utilitarias.h>
 	<string.h>
 	<lista.h>
 
-1560115451 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\biblioteca.h
+1560119172 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\entregable_2019-06-07\include\biblioteca.h
 	<stdio.h>
 	<tipos.h>
 	<stdlib.h>

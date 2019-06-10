@@ -1,0 +1,283 @@
+# depslib dependency file v1.0
+1448641797 source:c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1448635026 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1447950131 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\defs.h
+
+1448635026 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\archivocola.h
+	<stdio.h>
+
+1448637627 source:c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Tipos.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+
+1447166477 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipos.h
+
+1448636835 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\utilitarias.h
+	<Arbol.h>
+
+1447951014 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<Lista.h>
+
+1447166449 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\punterosafuncion.h
+
+1447166525 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1413169577 source:d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1448635026 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1479070042 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\defs.h
+
+1499889532 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\archivocola.h
+	<stdio.h>
+
+1499890598 source:d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+
+1468168946 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\utilitarias.h
+	<ArchivoCola.h>
+
+1499954923 source:c:\users\laboratorios\desktop\2017-07-13_entregable\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1448635026 c:\users\laboratorios\desktop\2017-07-13_entregable\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1479070042 c:\users\laboratorios\desktop\2017-07-13_entregable\include\defs.h
+
+1499889532 c:\users\laboratorios\desktop\2017-07-13_entregable\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\users\laboratorios\desktop\2017-07-13_entregable\include\archivocola.h
+	<stdio.h>
+
+1468168946 c:\users\laboratorios\desktop\2017-07-13_entregable\include\utilitarias.h
+	<ArchivoCola.h>
+
+1499957713 source:c:\users\laboratorios\desktop\2017-07-13_entregable\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559529280 source:c:\users\rama\desktop\ra miro\2017-07-13_entregable\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559528768 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559493921 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\archivocola.h
+	<stdio.h>
+
+1559529392 source:c:\users\rama\desktop\ra miro\2017-07-13_entregable\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\utilitarias.h
+	<ArchivoCola.h>
+
+1559563650 source:e:\2017-07-13_entregable\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559563008 e:\2017-07-13_entregable\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559493922 e:\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 e:\2017-07-13_entregable\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 e:\2017-07-13_entregable\include\archivocola.h
+	<stdio.h>
+
+1559563784 source:e:\2017-07-13_entregable\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 e:\2017-07-13_entregable\include\utilitarias.h
+	<ArchivoCola.h>
+
+1559563650 source:e:\programacion\2017-07-13_entregable\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559564008 e:\programacion\2017-07-13_entregable\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559569582 e:\programacion\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 e:\programacion\2017-07-13_entregable\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 e:\programacion\2017-07-13_entregable\include\archivocola.h
+	<stdio.h>
+
+1559569380 source:e:\programacion\2017-07-13_entregable\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 e:\programacion\2017-07-13_entregable\include\utilitarias.h
+	<ArchivoCola.h>
+
+1559563650 source:c:\users\rama\desktop\2017-07-13_entregable_anamagral\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559564008 c:\users\rama\desktop\2017-07-13_entregable_anamagral\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559613699 c:\users\rama\desktop\2017-07-13_entregable_anamagral\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 c:\users\rama\desktop\2017-07-13_entregable_anamagral\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\users\rama\desktop\2017-07-13_entregable_anamagral\include\archivocola.h
+	<stdio.h>
+
+1559613518 source:c:\users\rama\desktop\2017-07-13_entregable_anamagral\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 c:\users\rama\desktop\2017-07-13_entregable_anamagral\include\utilitarias.h
+	<ArchivoCola.h>
+
+1559674596 source:c:\users\rama\desktop\helecho\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559673576 c:\users\rama\desktop\helecho\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559613699 c:\users\rama\desktop\helecho\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 c:\users\rama\desktop\helecho\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\users\rama\desktop\helecho\include\archivocola.h
+	<stdio.h>
+
+1559676666 source:c:\users\rama\desktop\helecho\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 c:\users\rama\desktop\helecho\include\utilitarias.h
+	<ArchivoCola.h>
+
+1559674598 source:e:\programacionene\anagrama-cola estatica\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1559673578 e:\programacionene\anagrama-cola estatica\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559613700 e:\programacionene\anagrama-cola estatica\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 e:\programacionene\anagrama-cola estatica\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 e:\programacionene\anagrama-cola estatica\include\archivocola.h
+	<stdio.h>
+
+1560125901 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\1erparcialarchivocola\cola.c
+	<Cola.h>
+
+1560122726 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\include\cola.h
+	<Defs.h>
+	<TipoTDA.h>
+
+1559613700 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1499889532 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\include\tipotda.h
+	<ArchivoCola.h>
+
+1448635350 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\include\archivocola.h
+	<stdio.h>
+
+1560127732 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\1erparcialarchivocola\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Cola.h>
+	<ArchivoCola.h>
+	<Utilitarias.h>
+	<string.h>
+
+1468168946 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\anagrama-cola estatica\include\utilitarias.h
+	<ArchivoCola.h>
+

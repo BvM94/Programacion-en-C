@@ -2,6 +2,43 @@
 #include <utilitarias.h>
 #include <string.h>
 #include <lista.h>
+
+char *mi_strstr(const char *s1, const char *s2)
+{
+    const char * ps1 = s1;
+    const char * ps2 = s2;
+    const char  *ini ;
+
+    if(*ps2 == '\0')
+        return (char*)ps1;
+
+    while(*ps1 !='\0')
+    {
+        if(*ps1 == *ps2)
+        {
+            ini = ps1;
+            while(*ps2 != '\0' && *ps1 == *ps2)
+            {
+                ps1++;
+                ps2++;
+            }
+            if(*ps2 == '\0')
+                return (char*)ini;
+            else
+            {
+                ps1 = ini;
+                ps2 = s2;
+            }
+        }
+        ps1++;
+    }
+
+    return NULL;
+}
+
+
+
+
 void actualizar_stock(FILE * arch_libros, FILE * arch_stock, FILE * arch_err)
 {
     t_libro libro;

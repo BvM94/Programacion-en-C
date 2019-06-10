@@ -14,6 +14,9 @@ int isbn_valido(const char * isbn);
 int cmp_stock_libro_res(const t_libro * l1, const t_libro * l2);
 int cmp_stock_libro(const t_libro * l1, const t_libro * l2);
 
+char *mi_strstr(const char *s1, const char *s2);
+
+
 
 
 #endif // BANCO_H_INCLUDED

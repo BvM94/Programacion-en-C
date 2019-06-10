@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1413041511 source:c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
+1413036592 c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\cadena.h
+
+1448639611 source:c:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialcadenaanagrama\main.c
+	<stdio.h>
+	<string.h>
+	<Cadena.h>
+
+1413041511 source:d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
+1413036592 d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\include\cadena.h
+
+1448639611 source:d:\dropbox\unlam\programacion\examenesenmaquina\2017-07-13\2017-07-13_entregable\1erparcialcadenaanagrama\main.c
+	<stdio.h>
+	<string.h>
+	<Cadena.h>
+
+1499957769 source:c:\users\laboratorios\desktop\2017-07-13_entregable\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
+1499946632 c:\users\laboratorios\desktop\2017-07-13_entregable\include\cadena.h
+	<Defs.h>
+
+1499945975 source:c:\users\laboratorios\desktop\2017-07-13_entregable\1erparcialcadenaanagrama\main.c
+	<stdio.h>
+	<string.h>
+	<Cadena.h>
+
+1479070042 c:\users\laboratorios\desktop\2017-07-13_entregable\include\defs.h
+
+1559505891 source:c:\users\rama\desktop\ra miro\2017-07-13_entregable\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
+1559502645 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\cadena.h
+	<Defs.h>
+
+1559493921 c:\users\rama\desktop\ra miro\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1559494742 source:c:\users\rama\desktop\ra miro\2017-07-13_entregable\1erparcialcadenaanagrama\main.c
+	<Cadena.h>
+
+1559505892 source:e:\2017-07-13_entregable\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
+1559564092 e:\2017-07-13_entregable\include\cadena.h
+	<Defs.h>
+
+1559493922 e:\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1559563948 source:e:\2017-07-13_entregable\1erparcialcadenaanagrama\main.c
+	<Cadena.h>
+
+1559563948 source:e:\programacion\2017-07-13_entregable\1erparcialcadenaanagrama\main.c
+	<Cadena.h>
+
+1559564092 e:\programacion\2017-07-13_entregable\include\cadena.h
+	<Defs.h>
+
+1559569582 e:\programacion\2017-07-13_entregable\include\defs.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1559571984 source:e:\programacion\2017-07-13_entregable\1erparcialcadenaanagrama\cadena.c
+	<Cadena.h>
+
