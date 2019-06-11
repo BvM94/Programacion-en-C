@@ -1,0 +1,177 @@
+# depslib dependency file v1.0
+1559401046 source:d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559406625 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\plazofijo.h
+	<Fecha.h>
+
+1559173219 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\fecha.h
+
+1541027238 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipotda.h
+	<PlazoFijo.h>
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\punterosafuncion.h
+
+1559402149 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\solucion1erparcialplazosfijos.h
+
+1559401248 source:d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1559401129 source:d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1559401248 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1559173219 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\fecha.h
+
+1559401129 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1541027238 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\tipotda.h
+	<PlazoFijo.h>
+
+1559406625 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\plazofijo.h
+	<Fecha.h>
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\punterosafuncion.h
+
+1559509390 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559508759 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\include\solucion1erparcialplazosfijos.h
+
+1559401248 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1559173219 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\fecha.h
+
+1559401129 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1541027238 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\tipotda.h
+	<PlazoFijo.h>
+
+1559406625 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\plazofijo.h
+	<Fecha.h>
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\punterosafuncion.h
+
+1559509390 source:d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559508759 d:\dropbox\unlam\programacion\examenesenmaquina\2019-06-06_plazos_fijos\2019-06-06_entregable\include\solucion1erparcialplazosfijos.h
+
+1559401248 source:c:\users\laboratorios\desktop\2019-06-06_entregable\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1559173219 c:\users\laboratorios\desktop\2019-06-06_entregable\include\fecha.h
+
+1559401129 source:c:\users\laboratorios\desktop\2019-06-06_entregable\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1541027238 c:\users\laboratorios\desktop\2019-06-06_entregable\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 c:\users\laboratorios\desktop\2019-06-06_entregable\include\tipotda.h
+	<PlazoFijo.h>
+
+1559406625 c:\users\laboratorios\desktop\2019-06-06_entregable\include\plazofijo.h
+	<Fecha.h>
+
+1464182109 c:\users\laboratorios\desktop\2019-06-06_entregable\include\punterosafuncion.h
+
+1559509390 source:c:\users\laboratorios\desktop\2019-06-06_entregable\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559508759 c:\users\laboratorios\desktop\2019-06-06_entregable\include\solucion1erparcialplazosfijos.h
+
+1559401248 source:c:\users\laboratorios\desktop\2019-06-06_entregable - copia\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1559173219 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\fecha.h
+
+1559401129 source:c:\users\laboratorios\desktop\2019-06-06_entregable - copia\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1541027238 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\tipotda.h
+	<PlazoFijo.h>
+
+1559406625 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\plazofijo.h
+	<Fecha.h>
+
+1464182109 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\punterosafuncion.h
+
+1559509390 source:c:\users\laboratorios\desktop\2019-06-06_entregable - copia\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559508759 c:\users\laboratorios\desktop\2019-06-06_entregable - copia\include\solucion1erparcialplazosfijos.h
+
+1560262788 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\1erparcialplazosfijos\fecha.c
+	<Fecha.h>
+
+1560185662 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\fecha.h
+	<stdio.h>
+	<stdlib.h>
+
+1560190353 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\1erparcialplazosfijos\lista.c
+	<Lista.h>
+
+1560190292 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\lista.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1558198388 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\tipotda.h
+	<PlazoFijo.h>
+
+1559406625 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\plazofijo.h
+	<Fecha.h>
+
+1464182109 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\punterosafuncion.h
+
+1560263581 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\1erparcialplazosfijos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<PlazoFijo.h>
+	<Lista.h>
+	<Solucion1erParcialPlazosFijos.h>
+
+1559508759 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2019-06-06_entregableoriginal pan\include\solucion1erparcialplazosfijos.h
+
