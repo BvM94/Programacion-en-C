@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1404686329 source:c:\dropbox\unlam\programacion\examenesenmaquina\2014-07-15\2doparcialprogramacion2014-07-15\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Lista.h>
+	<Arbol.h>
+	<Utilitarias.h>
+
+1404687438 c:\dropbox\unlam\programacion\examenesenmaquina\2014-07-15\include\lista.h
+	<Tipos.h>
+
+1404686403 c:\dropbox\unlam\programacion\examenesenmaquina\2014-07-15\include\tipos.h
+
+1404685107 c:\dropbox\unlam\programacion\examenesenmaquina\2014-07-15\include\arbol.h
+	<Tipos.h>
+
+1404687243 c:\dropbox\unlam\programacion\examenesenmaquina\2014-07-15\include\utilitarias.h
+	<Arbol.h>
+
+1404693593 source:c:\2014-07-15_entregable\2doparcialprogramacion2014-07-15\arbol.c
+	<Arbol.h>
+
+1404693958 c:\2014-07-15_entregable\include\arbol.h
+	<Tipos.h>
+
+1404697606 c:\2014-07-15_entregable\include\tipos.h
+
+1405464332 source:c:\2014-07-15_entregable\2doparcialprogramacion2014-07-15\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Lista.h>
+	<Arbol.h>
+	<Utilitarias.h>
+
+1404694246 c:\2014-07-15_entregable\include\lista.h
+	<Tipos.h>
+
+1404697390 c:\2014-07-15_entregable\include\utilitarias.h
+	<Arbol.h>
+
+1405464332 source:c:\2014-07-15_entregable\2doparcialprogramacion2014-07-15\utilitarias.c
+
+1405464334 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\2doparcialprogramacion2014-07-15\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Lista.h>
+	<Arbol.h>
+	<Utilitarias.h>
+
+1562090780 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\include\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<Tipos.h>
+
+1404697608 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\include\tipos.h
+
+1404693960 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\include\arbol.h
+	<Tipos.h>
+
+1404697392 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\include\utilitarias.h
+	<Arbol.h>
+
+1405464334 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\2014-07-15_entregable - pan\2014-07-15_entregable\2doparcialprogramacion2014-07-15\utilitarias.c
+
