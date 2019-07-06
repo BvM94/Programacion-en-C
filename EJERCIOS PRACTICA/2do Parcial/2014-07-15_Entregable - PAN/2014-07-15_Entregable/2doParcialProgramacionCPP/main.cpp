@@ -1,14 +1,17 @@
 #include <iostream>
-#include "C:\2014-07-15_Entregable\include\Racional.h"
+
+#include"../include/Racional.h"
 using namespace std;
 
 int main()
 {
-    Racional r1, r2(2, 4), r3, r4;
+    Racional r1, r2(1, 3), r3, r4;
 
     r1 = r2;
 
-    r3 = r1 + r2;
+    //r3 = r1 + r2;
+
+    r3= r1 + 2;
 
     r4 = 2 + r3;
 
