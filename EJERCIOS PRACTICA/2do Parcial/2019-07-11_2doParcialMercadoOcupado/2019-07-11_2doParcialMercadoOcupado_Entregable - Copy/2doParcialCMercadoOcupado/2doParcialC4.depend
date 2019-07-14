@@ -1,0 +1,196 @@
+# depslib dependency file v1.0
+1499369997 source:d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\2doparcialc4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<listaD.h>
+	<Utilitarias2doParcialC4.h>
+
+1499375547 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1499370159 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipotda.h
+	<Tipos2doParcialC4.h>
+
+1499370445 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\tipos2doparcialc4.h
+	<Fecha.h>
+
+1479070745 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\fecha.h
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\punterosafuncion.h
+
+1499374863 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\utilitarias2doparcialc4.h
+	<stdio.h>
+	<arbol.h>
+
+1479751530 d:\dropbox\unlam\programacion\examenesenmaquina\bibliotecas\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1562625178 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\2doparcialcmercadoocupado\arbol.c
+	<Defs.h>
+	<Arbol.h>
+
+1562621865 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\defs.h
+
+1562622699 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1562619856 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\tipotda.h
+	<Tipos2doParcialC4.h>
+
+1562619877 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\tipos2doparcialc4.h
+	<Fecha.h>
+
+1562641063 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\fecha.h
+
+1562641063 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\punterosafuncion.h
+
+1562641063 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1562641057 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\2doparcialcmercadoocupado\lista.c
+	<Defs.h>
+	<ListaD.h>
+
+1562625125 source:g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\2doparcialcmercadoocupado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ListaD.h>
+	<Defs.h>
+	<Utilitarias2doParcialC4.h>
+
+1562619932 g:\dropbox\unlam\programacion\examenesenmaquina\2019-07-12_2doparcialmercadoocupado\include\utilitarias2doparcialc4.h
+	<stdio.h>
+	<Arbol.h>
+
+1562635978 source:c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\arbol.c
+	<Defs.h>
+	<Arbol.h>
+
+1562632664 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\defs.h
+
+1562633498 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1562630656 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\tipotda.h
+	<Tipos2doParcialC4.h>
+
+1562630676 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\tipos2doparcialc4.h
+	<Fecha.h>
+
+1562651862 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\fecha.h
+
+1562651862 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\punterosafuncion.h
+
+1562651862 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1562651856 source:c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\lista.c
+	<Defs.h>
+	<ListaD.h>
+
+1562635924 source:c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ListaD.h>
+	<Defs.h>
+	<Utilitarias2doParcialC4.h>
+
+1562630732 c:\users\laboratorios\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\utilitarias2doparcialc4.h
+	<stdio.h>
+	<Arbol.h>
+
+1562895629 source:c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\arbol.c
+	<Defs.h>
+	<Arbol.h>
+	<math.h>
+	<stdlib.h>
+
+1562632664 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\defs.h
+
+1562895457 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1562630656 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\tipotda.h
+	<Tipos2doParcialC4.h>
+
+1562630676 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\tipos2doparcialc4.h
+	<Fecha.h>
+
+1562651862 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\fecha.h
+
+1562651862 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\punterosafuncion.h
+
+1562651862 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1562894456 source:c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\lista.c
+	<Defs.h>
+	<ListaD.h>
+	<stdlib.h>
+
+1562894524 source:c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\2doparcialcmercadoocupado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ListaD.h>
+	<Defs.h>
+	<Utilitarias2doParcialC4.h>
+
+1562630732 c:\users\lucas\desktop\2019-07-11_2doparcialmercadoocupado_entregable\include\utilitarias2doparcialc4.h
+	<stdio.h>
+	<Arbol.h>
+
+1563027630 source:c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\2doparcialcmercadoocupado\arbol.c
+	<Defs.h>
+	<Arbol.h>
+	<math.h>
+	<stdlib.h>
+
+1562632664 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\defs.h
+
+1562895457 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1562630656 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\tipotda.h
+	<Tipos2doParcialC4.h>
+
+1562630676 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\tipos2doparcialc4.h
+	<Fecha.h>
+
+1562651862 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\fecha.h
+
+1562651862 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\punterosafuncion.h
+
+1562651862 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1563027533 source:c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\2doparcialcmercadoocupado\lista.c
+	<Defs.h>
+	<ListaD.h>
+	<stdlib.h>
+
+1563027630 source:c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\2doparcialcmercadoocupado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ListaD.h>
+	<Defs.h>
+	<Utilitarias2doParcialC4.h>
+
+1562630732 c:\users\mau\desktop\2019-07-11_2doparcialmercadoocupado_entregable - copy\2019-07-11_2doparcialmercadoocupado_entregable - copy\include\utilitarias2doparcialc4.h
+	<stdio.h>
+	<Arbol.h>
+

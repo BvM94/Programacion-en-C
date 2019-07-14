@@ -1,0 +1,8 @@
+El sitio web MercadoOcupado necesita actualizar los saldos de las cuentas de sus usuarios. Los mismos se encuentran en el archivo binario “CuentasUsuarios.dat”, y su estructura es la siguiente: nombre(Cadena de 30), importe_saldo (Flotante de doble precisión), fecha_ult_compra(Tipo Fecha).
+A su vez, mantiene un archivo de texto de longitud variable separado por tabulaciones denominado “ComprasUsuarios.txt”, con la sig. Estructura: nombre usuario(Cadena), producto(Cadena), importe(Decimal) y fecha de compra.
+Deberá actualizar el archivo de cuentas con el de compras, procediendo de la sig. Manera:
+Cargará todos los registros de compras en una lista dinámica doblemente enlazada.
+Luego, consolidará la misma de forma que quede un elemento por usuario, representando este el total de compras efectuadas por el usuario, con la fecha de la última compra.
+Con esta lista, actualizará el archivo de cuentas, accediendo al mismo en forma DIRECTA, NO SECUENCIAL, valiéndose de un índice implementado en un árbol binario de búsqueda, ya provisto, que sólo deberá utilizar. La info del arbol, consiste en el nombre del usuario, y el nro de registro donde esta ubicado el registro con ese nombre en el arcivo de cuentas.
+Adicionalmente se le pide que determine el nivel de balance que tiene el arbol. 
+
