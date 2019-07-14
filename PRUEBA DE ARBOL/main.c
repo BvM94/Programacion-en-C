@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "primitivas_arbol.h"
+#include "../primitivas_arbol.h"
 
 int comparar_enteros(const void * dato1,const void * dato2);
 void imprimir_dato(const void*);

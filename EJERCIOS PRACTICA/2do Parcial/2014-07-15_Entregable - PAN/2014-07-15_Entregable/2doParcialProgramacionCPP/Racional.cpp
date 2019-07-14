@@ -26,13 +26,27 @@ Racional Racional::operator +(const Racional& otro)const
 
     res.den = this->den * otro.den;
     res.num = this->num * otro.den + otro.num * this->den;
+    res.simplificar();
+    return res;
+}
 
-    if(res.num % res.den == 0)
-    {
-        res.num/=res.den;
-        res.den = 1;
-    }
+Racional Racional::operator -(const Racional& otro)const
+{
+    Racional res;
 
+    res.den = this->den * otro.den;
+    res.num = this->num * otro.den - otro.num * this->den;
+    res.simplificar();
+    return res;
+}
+
+Racional operator -(const int valor, const Racional& racional)
+{
+    Racional res;
+
+    res.den = racional.den;
+    res.num = valor * racional.den - racional.num;
+    res.simplificar();
     return res;
 }
 
@@ -42,13 +56,7 @@ Racional operator +(const int valor, const Racional& racional)
 
     res.den = racional.den;
     res.num = valor * racional.den + racional.num;
-
-    if(res.num % res.den == 0)
-    {
-        res.num/=res.den;
-        res.den = 1;
-    }
-
+    res.simplificar();
     return res;
 }
 
@@ -57,10 +65,53 @@ ostream& operator<<(ostream& sal,const Racional& racional)
     if(racional.den ==1 )
         sal<<racional.num;
     else
-       sal<<racional.num<<'/'<<racional.den;
+        sal<<racional.num<<'/'<<racional.den;
 
     return sal;
 }
 
+Racional Racional::operator /(const Racional& otro)const
+{
+    Racional res;
 
+    res.den = this->den * otro.num;
+    res.num = this->num * otro.den;
+    res.simplificar();
+    return res;
+}
+
+
+Racional Racional::operator *(const Racional& otro)const
+{
+        Racional res;
+
+    res.den = this->den * otro.den;
+    res.num = this->num * otro.num;
+    res.simplificar();
+    return res;
+}
+
+void Racional::simplificar()
+{
+    int mcd  = maximo_comun_divisor(this->num, this->den);
+    if(mcd != 1)
+    {
+        this->num /= mcd;
+        this->den /= mcd;
+    }
+}
+
+int maximo_comun_divisor(int a, int b)
+{
+    a = abs(a);
+    int resto;
+    while (b!= 0)
+    {
+        resto = a % b;
+        a = b;
+        b=resto;
+    }
+
+    return a;
+}
 

@@ -31,13 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../primitivas_arbol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../primitivas_arbol.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="primitivas_arbol.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="primitivas_arbol.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
