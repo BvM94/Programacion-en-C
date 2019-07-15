@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1436495672 source:e:\2015-07-10\entregable_2015-07-10\2doparcialc\arbol.c
+	<arbol.h>
+
+1436495524 e:\2015-07-10\entregable_2015-07-10\include\arbol.h
+	<Tipos.h>
+
+1436484452 e:\2015-07-10\entregable_2015-07-10\include\tipos.h
+
+1436495732 source:e:\2015-07-10\entregable_2015-07-10\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1436487272 e:\2015-07-10\entregable_2015-07-10\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+
+1436478752 e:\2015-07-10\entregable_2015-07-10\include\varias.h
+
+1436489920 source:e:\2015-07-10\entregable_2015-07-10\2doparcialc\utilitarias.c
+	<utilitarias.h>
+
+1436495672 source:c:\users\william\desktop\entregable_2015-07-10\2doparcialc\arbol.c
+	<arbol.h>
+
+1436495524 c:\users\william\desktop\entregable_2015-07-10\include\arbol.h
+	<Tipos.h>
+
+1436484452 c:\users\william\desktop\entregable_2015-07-10\include\tipos.h
+
+1436495732 source:c:\users\william\desktop\entregable_2015-07-10\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1436487272 c:\users\william\desktop\entregable_2015-07-10\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+
+1436478752 c:\users\william\desktop\entregable_2015-07-10\include\varias.h
+
+1436489920 source:c:\users\william\desktop\entregable_2015-07-10\2doparcialc\utilitarias.c
+	<utilitarias.h>
+
+1460979086 source:c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\2doparcialc\arbol.c
+	<arbol.h>
+
+1460979090 c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\include\arbol.h
+	<Tipos.h>
+
+1460979090 c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\include\tipos.h
+
+1460979086 source:c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1460979090 c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+
+1460979090 c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\include\varias.h
+
+1460979086 source:c:\users\casa\desktop\segundo parcial\entregable_2015-07-10\2doparcialc\utilitarias.c
+	<utilitarias.h>
+
+1563210805 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\2doparcialc\utilitarias.c
+	<utilitarias.h>
+
+1563158482 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\include\utilitarias.h
+	<stdio.h>
+	<arbol.h>
+
+1563159156 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\include\arbol.h
+	<Tipos.h>
+	<stdio.h>
+	<stdlib.h>
+
+1542542448 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\include\tipos.h
+
+1563211707 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\2doparcialc\arbol.c
+	<arbol.h>
+	<utilitarias.h>
+
+1563210907 source:c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<utilitarias.h>
+	<varias.h>
+	<arbol.h>
+
+1542542448 c:\users\mau\desktop\github\programacion-en-c\ejercios practica\2do parcial\entregable_2015-07-10 pezzola\include\varias.h
+
