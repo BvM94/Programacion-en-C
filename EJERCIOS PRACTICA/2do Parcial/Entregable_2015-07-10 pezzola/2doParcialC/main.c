@@ -4,6 +4,10 @@
 #include <varias.h>
 #include <arbol.h>
 
+/*modifique algunas cosas para poder actualizar el
+archivo de indices para que sirva para futuras ejecuciones y no quede desactualizado
+*/
+
 void imprimir_mensaje(int res);
 void op_alta(FILE * arch, t_arbol * pindice);
 void op_baja(FILE * arch, t_arbol * pindice);
@@ -23,8 +27,10 @@ int main()
     t_arbol indice;
     crear_arbol_res(&indice);
 
+
     //cargar_arbol_de_archivo_ordenado_res(&indice, "../archivos/alumnos.idx");
     cargar_arbol_de_archivo_ordenado(&indice, "../archivos/alumnos.idx");
+
 
 
     ///prueba de indice

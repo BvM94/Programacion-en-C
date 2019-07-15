@@ -14,6 +14,8 @@ typedef struct{
 int comparar_ind(const t_info* d1, const t_info* d2);
 void imprimir_indice(const t_info* pinfo);
 void crear_archivo_indice();
+void actualizar_arch_indices(t_arbol *pa);
+ void grabar_arch_indice (t_info* pinfo, void* datos_accion);
 
 int alta_res (t_alumno * alu, FILE * arch, t_arbol* pa);
 int alta (t_alumno * alu, FILE * arch, t_arbol* pa);

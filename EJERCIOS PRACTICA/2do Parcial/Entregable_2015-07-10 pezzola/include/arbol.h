@@ -32,7 +32,7 @@ t_nodo_arbol ** buscar_nae(const t_arbol *pa,t_info *pd,t_cmp cmp);
 void eliminar_nodo(t_nodo_arbol ** pnae);
 t_nodo_arbol** menor_mia(t_arbol *pa);
 t_nodo_arbol** mayor_mia(t_arbol *pa);
-void recorrer_Enorden(const t_arbol *pa,t_mostrar_clave acc);
+void recorrer_Enorden(const t_arbol *pa,t_accion acc, void * dato_accion);
 
 
 void crear_arbol(t_arbol* pa);

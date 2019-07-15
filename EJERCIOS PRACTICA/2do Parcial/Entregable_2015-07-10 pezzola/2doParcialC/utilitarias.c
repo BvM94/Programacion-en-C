@@ -9,9 +9,14 @@ int alta (t_alumno * alu, FILE * arch, t_arbol* pa)
     ind.nro_reg = ftell(arch)/sizeof(t_alumno);
     ind.dni = alu->dni;
     alu->estado = 'A';
-    fwrite(alu,sizeof(t_alumno),1,arch);
 
-    return insertar_en_arbol_bin_busq(pa,&ind,comparar_ind);
+    int ret = insertar_en_arbol_bin_busq(pa,&ind,comparar_ind);
+    if(ret != TODO_OK)
+        return ret;
+
+    fwrite(alu,sizeof(t_alumno),1,arch);
+    actualizar_arch_indices(pa);
+    return TODO_OK;
 }
 
 int baja (t_alumno * alu, FILE * arch, t_arbol* pa)
@@ -29,6 +34,8 @@ int baja (t_alumno * alu, FILE * arch, t_arbol* pa)
 
     alu->estado = 'B';
     fwrite(alu,sizeof(t_alumno),1,arch);
+
+    actualizar_arch_indices(pa);
 
     return TODO_OK;
 }
@@ -57,4 +64,23 @@ int comparar_ind(const t_info* d1, const t_info* d2)
      fwrite(&vecReg,sizeof(vecReg),1,arch);
 
     fclose(arch);
+ }
+
+
+ void actualizar_arch_indices(t_arbol *pa)
+ {
+     FILE * arch = fopen("../archivos/alumnos.idx", "wb");
+     if(!arch)
+        return;
+
+     recorrer_Enorden(pa,grabar_arch_indice,arch);
+
+    fclose(arch);
+ }
+
+ void grabar_arch_indice (t_info* pinfo, void* datos_accion)
+ {
+     FILE * arch_indices = (FILE*)datos_accion;
+     fseek(arch_indices,0l,SEEK_END);
+     fwrite(pinfo,sizeof(t_reg_ind),1,arch_indices);
  }

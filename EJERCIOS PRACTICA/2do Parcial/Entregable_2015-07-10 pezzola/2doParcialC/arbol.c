@@ -170,12 +170,12 @@ int altura_arbol_mia(const t_arbol* pa)
     return (hi > hd ? hi : hd)+1;
 }
 
-void recorrer_Enorden(const t_arbol *pa,t_mostrar_clave acc)
+void recorrer_Enorden(const t_arbol *pa,t_accion acc,void *dato_acc)
 {
     if(!*pa)
         return;
 
-    recorrer_Enorden(&(*pa)->pizq,acc);
-    acc(&(*pa)->info);
-    recorrer_Enorden(&(*pa)->pder,acc);
+    recorrer_Enorden(&(*pa)->pizq,acc,dato_acc);
+    acc(&(*pa)->info,dato_acc);
+    recorrer_Enorden(&(*pa)->pder,acc,dato_acc);
 }
